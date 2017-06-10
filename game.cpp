@@ -22,7 +22,7 @@ void Game::init(){
 
     Utils::init();
 
-    this->speed = SNAKE_MIN_SPEED;
+    this->speed = SNAKE_START_SPEED;
     this->snake_color = YELLOW;
     this->map = MAP_1;
 }

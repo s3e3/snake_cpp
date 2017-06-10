@@ -34,7 +34,8 @@ enum MAP {NO_WALLS, MAP_1, MAP_2, MAP_3};
 #define SUPER_FOOD_VALUE            10
 
 #define SNAKE_MIN_SPEED     4
-#define SNAKE_MAX_SPEED     10
+#define SNAKE_START_SPEED   10
+#define SNAKE_MAX_SPEED     15
 
 struct COORD{
     int x;
