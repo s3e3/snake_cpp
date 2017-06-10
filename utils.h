@@ -37,6 +37,8 @@ enum MAP {NO_WALLS, MAP_1, MAP_2, MAP_3};
 #define SNAKE_START_SPEED   10
 #define SNAKE_MAX_SPEED     15
 
+#define ENABLE_LOGGING      true
+
 struct COORD{
     int x;
     int y;

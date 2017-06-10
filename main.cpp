@@ -14,7 +14,10 @@ const int MAX_FRAMESKIP = 10;
 int main(){
     Game game;
     game.init();
-    Log::instance()->enable();
+
+    if(ENABLE_LOGGING){
+        Log::instance()->enable();
+    }
     Log::instance()->info("game initialized..");
 
     game.change_state(MenuState::instance());
